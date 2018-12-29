@@ -2,12 +2,12 @@ pragma solidity 0.4.15;
 
 
 contract Lottery {
-    string private name;
-    uint8 private count;
-    string private desc;
-    address private initiator;
-    address[] private participants;
-    bool private isWaiting = false;
+    string public name;
+    uint8 public count;
+    string public desc;
+    address public initiator;
+    address[] public participants;
+    bool public isWaiting = false;
 
     event Winner(uint128 time, string lotteryName, address[] winners);
 

@@ -4,8 +4,8 @@ module.exports = {
     aion: {
       networks: {
         development: {
-          host: "http://127.0.0.1:8645",
-          defaultAccount: "0xa05ed4fcb3fd1c2b8d65f7a9cbff0e280e53b40e6399f9887c3e28b37b5d09bf",
+          host: "http://127.0.0.1:8545",
+          defaultAccount: "0xa00a2d0d10ce8a2ea47a76fbb935405df2a12b0e2bc932f188f84b5f16da9c2c",
           password: "password"
         }
       }
